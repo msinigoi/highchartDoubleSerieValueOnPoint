@@ -12,7 +12,20 @@ $(function () {
       yAxis: {
           title: {
               text: "Weight (Kg)"
-          }
+          },
+          plotBands: [{
+            color: "#ffafaf",
+            from: 3,
+            to: 3.5
+          },{
+            color: "#fff9af",
+            from: 3.5,
+            to: 4
+          },{
+            color: "#ccffaf",
+            from: 4,
+            to: 5
+          }]
       },
       plotOptions: {
           line: {
